@@ -27,3 +27,6 @@ plt.plot(neighbors, train_accuracy, label = 'Training Accuracy')
 plt.legend()
 plt.xlabel('Number of Neighbors')
 plt.ylabel('Accuracy')
+
+
+sns.heatmap(df.corr(), square=True, cmap='RdYlGn')
